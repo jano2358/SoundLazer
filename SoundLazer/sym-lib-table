@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name SoundLazer)(type Legacy)(uri ${KIPRJMOD}/SoundLazer.lib)(options "")(descr ""))
+)
