@@ -3185,10 +3185,10 @@ Text Label 14950 4250 2    50   ~ 0
 Text Label 3750 5400 0    50   ~ 0
 ~MAN_RES
 $Comp
-L Device:R R?
+L Device:R R33
 U 1 1 60BF57D4
 P 15100 4400
-F 0 "R?" H 15030 4354 50  0000 R CNN
+F 0 "R33" H 15030 4354 50  0000 R CNN
 F 1 "10k" H 15030 4445 50  0000 R CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 15030 4400 50  0001 C CNN
 F 3 "~" H 15100 4400 50  0001 C CNN
@@ -3196,10 +3196,10 @@ F 3 "~" H 15100 4400 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0102
 U 1 1 60BF624A
 P 15100 4550
-F 0 "#PWR?" H 15100 4300 50  0001 C CNN
+F 0 "#PWR0102" H 15100 4300 50  0001 C CNN
 F 1 "GND" H 15105 4377 50  0000 C CNN
 F 2 "" H 15100 4550 50  0001 C CNN
 F 3 "" H 15100 4550 50  0001 C CNN
@@ -3207,10 +3207,10 @@ F 3 "" H 15100 4550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP?
+L Connector:TestPoint TP4
 U 1 1 60C1542B
 P 10050 2500
-F 0 "TP?" H 10108 2618 50  0000 L CNN
+F 0 "TP4" H 10108 2618 50  0000 L CNN
 F 1 "Audio_out" H 10108 2527 50  0000 L CNN
 F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 10250 2500 50  0001 C CNN
 F 3 "~" H 10250 2500 50  0001 C CNN
@@ -3218,10 +3218,10 @@ F 3 "~" H 10250 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R32
 U 1 1 60C55770
 P 4050 9500
-F 0 "R?" H 3980 9454 50  0000 R CNN
+F 0 "R32" H 3980 9454 50  0000 R CNN
 F 1 "10k" H 3980 9545 50  0000 R CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 3980 9500 50  0001 C CNN
 F 3 "~" H 4050 9500 50  0001 C CNN
@@ -3229,10 +3229,10 @@ F 3 "~" H 4050 9500 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0100
 U 1 1 60C55786
 P 4050 9650
-F 0 "#PWR?" H 4050 9400 50  0001 C CNN
+F 0 "#PWR0100" H 4050 9400 50  0001 C CNN
 F 1 "GND" H 4055 9477 50  0000 C CNN
 F 2 "" H 4050 9650 50  0001 C CNN
 F 3 "" H 4050 9650 50  0001 C CNN
@@ -3242,10 +3242,10 @@ $EndComp
 Wire Wire Line
 	4050 9350 4050 9300
 $Comp
-L 4xxx:4049 U?
+L 4xxx:4049 U3
 U 4 1 60C97B46
 P 6800 10300
-F 0 "U?" H 6800 10617 50  0000 C CNN
+F 0 "U3" H 6800 10617 50  0000 C CNN
 F 1 "4049" H 6800 10526 50  0000 C CNN
 F 2 "" H 6800 10300 50  0001 C CNN
 F 3 "http://www.intersil.com/content/dam/intersil/documents/cd40/cd4049ubms.pdf" H 6800 10300 50  0001 C CNN
@@ -3253,10 +3253,10 @@ F 3 "http://www.intersil.com/content/dam/intersil/documents/cd40/cd4049ubms.pdf"
 	1    0    0    -1  
 $EndComp
 $Comp
-L 4xxx:4049 U?
+L 4xxx:4049 U3
 U 5 1 60C99B06
 P 6800 10600
-F 0 "U?" H 7200 10500 50  0000 C CNN
+F 0 "U3" H 7200 10500 50  0000 C CNN
 F 1 "4049" H 7000 10500 50  0000 C CNN
 F 2 "" H 6800 10600 50  0001 C CNN
 F 3 "http://www.intersil.com/content/dam/intersil/documents/cd40/cd4049ubms.pdf" H 6800 10600 50  0001 C CNN
@@ -3264,10 +3264,10 @@ F 3 "http://www.intersil.com/content/dam/intersil/documents/cd40/cd4049ubms.pdf"
 	1    0    0    -1  
 $EndComp
 $Comp
-L 4xxx:4049 U?
+L 4xxx:4049 U3
 U 6 1 60C9B7E2
 P 6800 10900
-F 0 "U?" H 6800 10650 50  0000 C CNN
+F 0 "U3" H 6800 10650 50  0000 C CNN
 F 1 "4049" H 6850 10750 50  0000 C CNN
 F 2 "" H 6800 10900 50  0001 C CNN
 F 3 "http://www.intersil.com/content/dam/intersil/documents/cd40/cd4049ubms.pdf" H 6800 10900 50  0001 C CNN
@@ -3275,10 +3275,10 @@ F 3 "http://www.intersil.com/content/dam/intersil/documents/cd40/cd4049ubms.pdf"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0101
 U 1 1 60CBBC61
 P 6500 10950
-F 0 "#PWR?" H 6500 10700 50  0001 C CNN
+F 0 "#PWR0101" H 6500 10700 50  0001 C CNN
 F 1 "GND" H 6505 10777 50  0000 C CNN
 F 2 "" H 6500 10950 50  0001 C CNN
 F 3 "" H 6500 10950 50  0001 C CNN
