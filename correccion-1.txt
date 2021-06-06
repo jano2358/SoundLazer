@@ -1,0 +1,30 @@
+ADAU1701 Pin 14  —> R40 3k32 1%  en laser  - Jano 49k9 <- corregido
+
+ADAU1701 Pin 37 / 42 / 12 / 25 GND <- 1-37-42 AGND, 12-25 DGND, estan agrupados
+los pines agrupados los ves abriendo el simbolo para edicion (btn der->properties->open in library editor). Es una tendencia en estos tiempos en que los ics requieren multiples pines de alimentacion.
+
+ADAU1701 Pin 5 RST —> R18 10K —>GND <- corregido
+
+R14 en soundlazer es 56.2R en Jano R20 56.2K
+
+El TP5 no se representa en el de Jano <- agregao
+
+
+R3 1K Laser en Jano R16 56.2K <- corregido
+
+ADAU1701 PIN 13 va unido a Pin 24 —> Falta PIN 24 En jano <-estan agrupados
+
+ADAU1701 PIN 48  3.3V - Falta en Jano <-estan agrupados
+
+De donde llega el +1.8v en tu esquema? Que llega a R2 de 100R? <- desde DVDD del ADAU1701
+
+
+FALTA R24 10K a tierra desde el pin E2 <- agregao
+
+
+Revisar
+MDDT2222V En laser llega por POBF a Pata 2 y se conecta a al Q2A y Q3A —En Jano llega a Pata 2/5 del Q2B Q3A
+A la salsa salida las patas tb parecen erradas estando las dos patas 1, unidas y la 6 —>GND  <- Q2B/A son transistores en un integrado, no importa cual se use donde mientras se respeten los pines, miratelo otra vez
+
+
+4049 —> PINES 9/11/14  a GND:  faltan en jano <- agregao
