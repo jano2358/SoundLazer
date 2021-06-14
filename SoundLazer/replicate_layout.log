@@ -1,0 +1,56 @@
+06-09 22:03:12 replicate_layout.action_replicate_layout 309:Plugin executed on: 'linux'
+06-09 22:03:12 replicate_layout.action_replicate_layout 310:Plugin executed with python version: '3.9.5 (default, May 24 2021, 12:50:35) \n[GCC 11.1.0]'
+06-09 22:03:12 replicate_layout.action_replicate_layout 311:KiCad build version: 5.1.10
+06-09 22:03:12 replicate_layout.action_replicate_layout 312:Replicate layout plugin version: 72 started
+06-09 22:03:12 replicate_layout.action_replicate_layout 325:All top level windows titles are:
+kicad 5.1.10 /home/jano/mega/projects/000/directional_speaker/amplificador/soundlazer/soundlazer/soundlazer.pro
+
+pcbnew — /home/jano/mega/projects/000/directional_speaker/amplificador/soundlazer/soundlazer/soundlazer.kicad_pcb
+
+
+eeschema — soundlazer.sch [/] — /home/jano/mega/projects/000/directional_speaker/amplificador/soundlazer/soundlazer
+
+06-09 22:03:12 replicate_layout.action_replicate_layout 326:All top level windows objects are:
+ <wx._core.Frame object at 0x7ff2005d1820>
+<wx._core.Frame object at 0x7ff2005d19d0>
+<wx._core.Frame object at 0x7ff2005d1820>
+<wx._core.Frame object at 0x7ff2005d19d0>
+<wx._core.Frame object at 0x7ff2005d1820>
+<wx._core.Frame object at 0x7ff2005d19d0>
+<wx._core.Frame object at 0x7ff2005d1820>
+06-09 22:03:12 replicate_layout.action_replicate_layout 349:Preparing replicator with J1 as a reference
+06-09 22:03:12 replicate_layout.replicatelayout 215:getting project hierarchy from schematics
+06-09 22:03:12 replicate_layout.replicatelayout 217:Project hierarchy looks like:
+{}
+06-09 22:03:12 replicate_layout.replicatelayout 225:getting a list of all footprints on board
+06-09 22:03:12 replicate_layout.action_replicate_layout 375:source anchor footprint is 'J1'
+Located on:[]
+With filenames:[]
+With sheet_id:[]
+06-09 22:03:12 replicate_layout.action_replicate_layout 380:Corresponding footprints are 
+[('J1', [])]
+06-09 22:03:12 replicate_layout.action_replicate_layout 393:Showing dialog
+06-09 22:03:12 replicate_layout.action_replicate_layout 397:Pcbnew position: wx.Point(1920, 0)
+06-09 22:03:12 replicate_layout.action_replicate_layout 403:Display 0: wx.Rect(1920, 0, 1920, 1080)
+06-09 22:03:12 replicate_layout.action_replicate_layout 403:Display 1: wx.Rect(0, 0, 1920, 1080)
+06-09 22:03:12 replicate_layout.action_replicate_layout 407:Toolbar position: wx.Point(3614, 129)
+06-09 22:03:12 replicate_layout.action_replicate_layout 414:Dialog position: wx.Point(3301, 129)
+06-09 22:03:24 STDERR 435:Traceback (most recent call last):
+06-09 22:03:24 STDERR 435:  File "/home/jano/.kicad_plugins/replicate_layout/action_replicate_layout.py", line 151, in OnOk
+06-09 22:03:24 STDERR 435:sheets_on_a_level = self.replicator.get_sheets_to_replicate(self.src_anchor_module, self.src_anchor_module.sheet_id[level])
+06-09 22:03:24 STDERR 435:IndexError
+06-09 22:03:24 STDERR 435::
+06-09 22:03:24 STDERR 435:list index out of range
+06-09 22:03:28 STDERR 435:Traceback (most recent call last):
+06-09 22:03:28 STDERR 435:  File "/home/jano/.kicad_plugins/replicate_layout/action_replicate_layout.py", line 151, in OnOk
+06-09 22:03:28 STDERR 435:sheets_on_a_level = self.replicator.get_sheets_to_replicate(self.src_anchor_module, self.src_anchor_module.sheet_id[level])
+06-09 22:03:28 STDERR 435:IndexError
+06-09 22:03:28 STDERR 435::
+06-09 22:03:28 STDERR 435:list index out of range
+06-09 22:03:35 STDERR 435:Traceback (most recent call last):
+06-09 22:03:35 STDERR 435:  File "/home/jano/.kicad_plugins/replicate_layout/action_replicate_layout.py", line 151, in OnOk
+06-09 22:03:35 STDERR 435:sheets_on_a_level = self.replicator.get_sheets_to_replicate(self.src_anchor_module, self.src_anchor_module.sheet_id[level])
+06-09 22:03:35 STDERR 435:IndexError
+06-09 22:03:35 STDERR 435::
+06-09 22:03:35 STDERR 435:list index out of range
+06-09 22:03:52 replicate_layout.action_replicate_layout 256:User canceled the dialog
