@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name SoundLazer)(type Legacy)(uri ${KIPRJMOD}/SoundLazer.lib)(options "")(descr ""))
+  (lib (name SJ1-3523N)(type Legacy)(uri /home/jano/kicad_lib/temp_pcb_lib/SJ1-3523N.lib)(options "")(descr ""))
 )

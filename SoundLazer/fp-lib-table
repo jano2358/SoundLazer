@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name temp_pcb_lib)(type KiCad)(uri /home/jano/kicad_lib/temp_pcb_lib)(options "")(descr ""))
+)
