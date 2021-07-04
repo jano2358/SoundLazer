@@ -1,0 +1,80 @@
+"Parametric Speaker -  Revised: Tuesday, June 12, 2012"
+SL-ParaSpeaker-x39_BOM  Revision: A
+(From SL-S01  Revision: A)
+Soundlazer
+
+"Bill Of Materials           June 12,2012      2:39:53"
+
+   Item        Qty                 Reference                        Part Value           Voltage     Current          Tol                              Type                                    Part Number                  Manufacturer                        PCB Footprint
+
+"    1           3                 C1,C44,C45                          220uF                35V       850mA           20%                  Alum Lo-ESR Hi-Irpl SMT FP                        EEE-FP1V221AP                    Panasonic                      CAP-EEE-FP-10x10.5"
+"    2           7        C2,C5,C6,C22,C23,C38,C46                     10uF                 35V                       10%                               X6S                                                                                                          C1206"
+"    3          22         C3,C4,C7,C8,C12,C13,C14,                    100nF                50V                       10%                               X7R                                                                                                          C0402"
+"                         C16,C17,C18,C25,C27,C32,"
+"                         C34,C35,C39,C40,C41,C43,"
+"                                 C47,C50,C51"
+"    4           7         C9,C11,C15,C19,C24,C26,                     10uF                 10V                       10%                               X7R                                                                                                          C0805"
+                                       C33
+"    5           3                C10,C36,C42                          3.3nF                50V                        5%                               NP0                                                                                                          C0603"
+"    6           2                   C20,C21                           100pF                50V                        5%                               NP0                                                                                                          C0402"
+"    7           2                   C28,C29                           27pF                 50V                        5%                               NP0                                                                                                          C0402"
+    8           1                      C30                            100uF                6.3V                      20%                               X5R                                                                                                          C1210
+"    9           2                   C31,C37                           56nF                 50V                       10%                               X7R                                                                                                          C0402"
+"    10          2                   C48,C49                           390pF                50V                        5%                               NP0                                                                                                          C0402"
+"    11          2                   C52,C53                           4.7uF                25V                       10%                               X7R                                                                                                          C0805"
+    12          1                      D1                        MBRA340T3G                40V          3A                                       Schottky Power                               MBRA340T3G                      ON Semi                                SMA
+"    13          2                    D2,D3                        MMDL914T1               100V       200mA                                     Hi-Speed Switching                            MMDL914T1G                       ON Semi                             SOD-323"
+"    14          2                   FB1,FB2                    220ohm@100MHz                           2.0A                                     Hi-Freq WideBand                           BLM18EG221SN1D                      muRata                               L0603"
+    15          1                      JP1                    TMM-102-01-T-D-SM           450V          2A                           Hdr St 2m SM 0.5mSq 2x2 Sn 3.2mPn                    TMM-102-01-T-D-SM                    Samtec                     CON-2mm-ST-TMM-2x2
+    16          1                       J1                       PJ-002AH-SMT              24V          5A                           DC Pwr Jack RA SM NC 5.5OD 2.1ID                        PJ-002AH-SMT                        CUI                        CON-PJ-02BH-SMT
+    17          1                       J2                        SJ-3523-SMT              12V          1A                             Audio Jack 3.5mm Stereo RA SM                          SJ-3523-SMT                        CUI                         CON-SJ-352x-SMT
+    18          1                       J3                      N2510-5002-RB             500V       1.75-5A                            Hdr RA 4-Wall 2.54m T-H 2x5 Au                       N2510-5002-RB                       3M                        CON-100-RA-4WL-2x5
+    19          1                       L1                            56uH                             1.9A          20%                   Ferrite Shielded 0.118ohm                      MSS1048T-563MLC                     Coilcraft                         IND-MSS1048
+    20          1                     PSH1                         2SN-BK-G               675V          2A                            Shnt St 2m 0.5mSq 1x2 Au 2.3mLPn                          2SN-BK-G                       Samtec
+    21          1                      Q1                      ZXTP25040DZTA               40V          3A                              PNP BiPlr Med Pwr 40Vce h-200                       ZXTP25040DZTA                         DI                               SOT-89
+    22          1                      Q2                         MMDT2222V                40V         0.6A                            NPN x2 BiPlr Sml Sig 40Vce h-75                       MMDT2222V-7                  DI MCC Central                           SOT-563
+    23          1                      Q3                         MMDT2907V                60V         0.6A                            PNP x2 BiPlr Sml Sig 60Vce h-100                      MMDT2907V-7                  DI MCC Central                           SOT-563
+    24          1                      Q4                          FDS4935A                30V          7A                             P-Ch x2 MOSFET L5 35mo 21nC                              FDS4935A                      Fairchild                              SO-8
+    25          1                      Q5                           FDS8984                30V          7A                              N-Ch x2 MOSFET L5 30mo 7nC                              FDS8984                       Fairchild                              SO-8
+    26          1                      RJ1                              0                              1.0A     50mohm Max                     0ohm Jumper Silver                                                                                                 JP3-0402
+    27          1                      R1                             140K                 50V                        1%                            Thick Film                                                                                                      R0402
+    28          1                      R2                             78.7K                50V                        1%                            Thick Film                                                                                                      R0402
+"    29          2                    R3,R12                           1.00K                50V                        1%                            Thick Film                                                                                                      R0402"
+"    30          4               R4,R5,R15,R33                         49.9K                50V                        1%                            Thick Film                                                                                                      R0402"
+"    31         10        R6,R7,R9,R10,R11,R16,R17,                    10.0K                50V                        1%                            Thick Film                                                                                                      R0402"
+"                                 R18,R22,R24"
+    32          1                      R8                             18.2K                50V                        1%                            Thick Film                                                                                                      R0402
+"    33          2                   R13,R41                            100                 50V                        1%                            Thick Film                                                                                                      R0402"
+    34          1                      R14                             56.2                50V                        1%                            Thick Film                                                                                                      R0402
+    35          1                      R19                             475                 50V                        1%                            Thick Film                                                                                                      R0402
+"    36          2                   R20,R21                            10K                                           25%              Trim Pot 1-Trn Open Top 0.15W SM                       3303W-3-103E                      Bourns                       RTP-3303W-4033mm"
+"    37          4              R23,R29,R32,R40                        3.32K                50V                        1%                            Thick Film                                                                                                      R0402"
+"    38          2                   R25,R26                            221                 50V                        1%                            Thick Film                                                                                                      R0402"
+"    39          2                   R27,R30                            10.0                50V                        1%                            Thick Film                                                                                                      R0402"
+"    40          2                   R28,R31                            274                 50V                        1%                            Thick Film                                                                                                      R0402"
+    41          1                     SW1                           EG1381A                 6V       300mA                                Slide Mini SP3T St SM 10KC                            EG1381A                       E-Switch                    SW-EG1381A-13055mm
+"    42          0        TP1,TP2,TP3,TP4,TP5,TP6,                   Test Point                                                                      Test Point                                                                                                  TP-TH-20x13"
+"                           TP8,TP9,TP10,TP11,TP13"
+"    43          2                  TP7,TP12                       TP-SM-5015                                                             Test Point Loop SMT 1.5mmT                                5015                    Keystone Elec                       TP-SM-2710mm"
+    44          1                      U1                      NCP4629HDT060             4-30Vs      500mA            2%                      V Reg LDO 6.0Vo CE                         NCP4629HDT060T5G                     ON Semi                        TO-252-5-10x7mm
+    45          1                      U2                       ADP3336ARMZ             2.6-15Vs     500mA            2%                  V Reg LDO Var /SD 1.5-10Vo                     ADP3336ARMZ-REEL7                   Analog Dev                       MSOP-8-3x5mm
+    46          1                      U3                       ADAU1701JSTZ              3.3Vs      150mA                                    DSP Audio ADC DAC                              ADAU1701JSTZ                    Analog Dev                        QFP-48-9x9mm
+    47          1                      U4                         24AA256-ISN           1.7-5.5Vs      3mA                                Mem Ser EE I2C 256Kb 1.7V                           24AA256-ISN                       uChip                           SO-8-5x6mm
+    48          1                      U5                        ADM811TARTZ            1.0-5.5Vs     15uA            3%             uP Supr /RST PP /MR 140ms 3.08Vth                   ADM811TARTZ-REEL7                   Analog Dev                      SOT-143-3x2.6mm
+    49          1                      U6                          TL494CDR              7-40Vs      200mA                                  IC PWM Cntrl PP-SE Out                             TL494CDR                           TI                           SO-16-10x6mm
+    50          1                      U7                        74HC4049PW               2-6Vs       20uA                                Inv H-L-Lvl x6 HC 15Vin 4mA                         74HC4049PW                       NXP TI                        TSSO-16-5x6.6mm
+"    51         39        XS1,XS2,XS3,XS4,XS5,XS6,                   T4010B4               30Vpp                                           Spkr Piezo 120dB 100dg-FA                              T4010B4                       Nicera                            SPK2-T4010"
+"                          XS7,XS8,XS9,XS10,XS11,"
+"                        XS12,XS13,XS14,XS15,XS16,"
+"                        XS17,XS18,XS19,XS20,XS21,"
+"                        XS22,XS23,XS24,XS25,XS26,"
+"                        XS27,XS28,XS29,XS30,XS31,"
+"                        XS32,XS33,XS34,XS35,XS36,"
+"                               XS37,XS38,XS39"
+    52          1                      X1                          12.288MHZ                                        20ppm                ABM8G 4Pn Par 18pF -40-85C                  ABM8G-12.288MHz-18-D2Y-T                 Abracon                          XTL4-3225mm
+
+"                       Highest Ref Used: C53, D3, FB2, JP1, J3, "
+"                       L1, Q5, RJ1, R41, SW1, TP13, U7, XS39, X1"
+                       Ref Not Used: R34-R39
+"                       Do Not Install: TP1-TP6, TP8-TP11, TP13"
+"                       Install: RJ1 at position 1-2, PSH1 at pos 1-2"
